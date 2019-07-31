@@ -14,5 +14,3 @@ echo $start
 echo $end
 echo ------------
 mpirun -n 80 ./genreg 23 4 -a stdout -split 12 -m $start $end 50000
-#/usr/sbin/sshd -f /gpfs/home/zhipxu/sshd_config -E /gpfs/home/zhipxu/sshd.log
-#./lammps > err.txt
