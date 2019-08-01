@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Distri-GENREG is the modified version for a regular graph generator (GENREG) that supports the parallel scale of thousands of CPU cores. For adapting to the cluster, we added a layer of  MPI wrap to schedule the that can implement loading balance, which can make full use of all cores. 
+Distri-GENREG is the modified version for a regular graph generator (GENREG) that supports the parallel scale of thousands of CPU cores. For adapting to the cluster, we added a layer of  MPI wrap to schedule the tasks that can implement loading balance, which can make full use of all cores. 
 
 If you are interested in the area of the regular graph or want to design some interconnection network for small-scale clusters or SOC,  you can try it. Also, if you are curious about the sequence of A068934(http://oeis.org/wiki/User:Jason_Kimberley/A068934) like me, you can try it on some clusters. We also provide a script for the SLURM management system and will add more options in the future. But if you want to join in the area of regular graph counting, I think you should have enough computing resources for supercomputers because Jason Kimberley has got many results 8 years ago, and the remaining parts are not easy to calculate and may cost expensive computing hour.
 
